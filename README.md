@@ -14,15 +14,24 @@ To write a program to find the GCD of two numbers using function.
 4. Use for() and if() loop to find the GCD of the two numbers.
 
 ## Program:
+#FINDING THE GREATEST COMMON DIVISOR OF THE TWO NUMBERS
+#DEVELOPED BY: SHIVAA PALANIYAPPAN V
+#REGISTER NUMBER: 212223110050
 ```
-/*
-Program to find the gcd of two number using function.
-Developed by: 
-RegisterNumber:  
-*/
+def gcd():
+    num1,num2 = int(input()),int(input())
+    if num1>num2:
+        small=num2
+    else:
+        small=num1
+    for i in range(1,small+1):
+        if (num1%i==0) and (num2%i==0):
+            gcdd=i
+    print("GCD of two numbers is:",gcdd)        
 ```
 
 ## Output:
+![image](https://github.com/shivaa-palaniyappan/GCD-of-two-numbers/assets/146915611/182242e4-8bc4-48d3-9b11-fa4cf803ea84)
 
 
 
