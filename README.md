@@ -15,8 +15,11 @@ To write a program to find the GCD of two numbers using function.
 
 ## Program:
 #FINDING THE GREATEST COMMON DIVISOR OF THE TWO NUMBERS
+
 #DEVELOPED BY: SHIVAA PALANIYAPPAN V
+
 #REGISTER NUMBER: 212223110050
+
 ```
 def gcd():
     num1,num2 = int(input()),int(input())
